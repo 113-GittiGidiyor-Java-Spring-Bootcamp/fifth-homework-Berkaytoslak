@@ -599,3 +599,46 @@ com.mysql.cj.exceptions.DataReadException: Zero date value prohibited
 2021-09-08 03:07:52.290  INFO 20656 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2021-09-08 03:07:52.291  INFO 20656 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2021-09-08 03:07:52.302  INFO 20656 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-09-14 22:05:23.991  INFO 14808 --- [main] c.f.f.ThirdHomeWorkApplication           : Starting ThirdHomeWorkApplication using Java 16.0.1 on MSI with PID 14808 (C:\Users\Berkay Toslak\Desktop\Bootcamp\springBootcamp-HW5\fifth-homework-Berkaytoslak\fifthHomeWork\target\classes started by Berkay Toslak in C:\Users\Berkay Toslak\Desktop\Bootcamp\springBootcamp-HW5\fifth-homework-Berkaytoslak\fifthHomeWork)
+2021-09-14 22:05:23.993  INFO 14808 --- [main] c.f.f.ThirdHomeWorkApplication           : No active profile set, falling back to default profiles: default
+2021-09-14 22:05:25.076  INFO 14808 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-14 22:05:25.169  INFO 14808 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 80 ms. Found 4 JPA repository interfaces.
+2021-09-14 22:05:25.758  INFO 14808 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-09-14 22:05:25.769  INFO 14808 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-14 22:05:25.770  INFO 14808 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-14 22:05:25.923  INFO 14808 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-14 22:05:25.923  INFO 14808 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1879 ms
+2021-09-14 22:05:26.160  INFO 14808 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-14 22:05:26.238  INFO 14808 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-09-14 22:05:26.432  INFO 14808 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-14 22:05:26.554  INFO 14808 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-09-14 22:05:27.020  INFO 14808 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-09-14 22:05:27.038  INFO 14808 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-09-14 22:05:28.460  INFO 14808 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-14 22:05:28.470  INFO 14808 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-09-14 22:05:29.222  WARN 14808 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-09-14 22:05:29.371  INFO 14808 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-09-14 22:05:29.697  INFO 14808 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-09-14 22:05:29.698  INFO 14808 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-09-14 22:05:29.724  INFO 14808 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-09-14 22:05:29.776  INFO 14808 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-09-14 22:05:30.049  INFO 14808 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteByIdUsingDELETE_1
+2021-09-14 22:05:30.053  INFO 14808 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteByNameUsingDELETE_1
+2021-09-14 22:05:30.056  INFO 14808 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteByObjectUsingDELETE_1
+2021-09-14 22:05:30.060  INFO 14808 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingGET_1
+2021-09-14 22:05:30.064  INFO 14808 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findByIdUsingGET_1
+2021-09-14 22:05:30.068  INFO 14808 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findIncludeNameUsingGET_1
+2021-09-14 22:05:30.073  INFO 14808 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: saveUsingPOST_1
+2021-09-14 22:05:30.076  INFO 14808 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPUT_1
+2021-09-14 22:05:30.087  INFO 14808 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteByIdUsingDELETE_2
+2021-09-14 22:05:30.090  INFO 14808 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteByNameUsingDELETE_2
+2021-09-14 22:05:30.095  INFO 14808 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteByObjectUsingDELETE_2
+2021-09-14 22:05:30.103  INFO 14808 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllUsingGET_2
+2021-09-14 22:05:30.108  INFO 14808 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findByIdUsingGET_2
+2021-09-14 22:05:30.111  INFO 14808 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findIncludeNameUsingGET_2
+2021-09-14 22:05:30.115  INFO 14808 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: saveUsingPOST_2
+2021-09-14 22:05:30.119  INFO 14808 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPUT_2
+2021-09-14 22:05:30.145  INFO 14808 --- [main] c.f.f.ThirdHomeWorkApplication           : Started ThirdHomeWorkApplication in 6.81 seconds (JVM running for 8.645)
+2021-09-14 22:05:36.407  INFO 14808 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-14 22:05:36.408  INFO 14808 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-09-14 22:05:36.409  INFO 14808 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
